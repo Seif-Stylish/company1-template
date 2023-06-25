@@ -1,0 +1,927 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1
+{
+    background-image: url(../hero-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.navbar-nav li a
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+}
+.section1 .whiteLayer
+{
+    background-color: rgba(255, 255, 255, 0.6);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.welcomeToBizland
+{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #222222;
+    font-family: "Poppins" , "sans-serif";
+}
+.bizlandSpan
+{
+    color: #106eea;
+}
+.bizlandNav
+{
+    color: #222222;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+.blueDot
+{
+    color: #106eea;
+}
+.weAreTeam
+{
+    color: #555555;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: "Roboto" , "sans-serif";
+}
+.getStarted
+{
+    text-transform: uppercase;
+    background-color: #106eea;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.getStarted:hover
+{
+    background-color: #3485f0;
+}
+.playIcon
+{
+    font-size: 18px;
+    color: #106eea;
+    border: 3px solid #106eea;
+    border-radius: 50%;
+    line-height: 0;
+    padding: 12px 7px;
+}
+.watchVideo
+{
+    font-size: 14px;
+    color: #222222;
+    font-weight: bolder;
+    font-family: "Open Sans", sans-serif;
+}
+.watchVideoSpan
+{
+    cursor: pointer;
+}
+.watchVideoSpan i
+{
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+.watchVideoSpan .watchVideo
+{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.watchVideoSpan:hover .watchVideo
+{
+    color: #3485f0;
+}
+.watchVideoSpan:hover:hover i
+{
+    color: #3485f0;
+    border-color: #3485f0;
+}
+.section2
+{
+    background-color: #fff;
+}
+.loremIpsumSection2
+{
+    color: #111;
+    font-size: 20px !important;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+}
+.VoluptatumSection2
+{
+    font-size: 18px !important;
+    font-weight: 200;
+    line-height: 28px;
+    color: #444444;
+    font-family: "Open Sans", sans-serif;
+}
+.divSection2
+{
+    z-index: 5;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+}
+.position-relative .blueDiv
+{
+    background-color: #106eea;
+    top: 100%;
+    right: 0;
+    left: 0;
+    transition: 0.3s;
+    z-index: -1;
+}
+.divSection2:hover .blueDiv
+{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.loremIpsumSection2
+{
+    color: #111;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.VoluptatumSection2
+{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: 20px;
+    line-height: 28px;
+    transition: 0.3s;
+}
+.divSection2:hover .loremIpsumSection2
+{
+    color: white;
+}
+.divSection2:hover .VoluptatumSection2
+{
+    color: white;
+}
+.dribbbleIcon
+{
+    font-size: 48px;
+    line-height: 1;
+    color: #106eea;
+    transition: 0.3s;
+}
+.divSection2:hover .dribbbleIcon
+{
+    color: white;
+}
+.section3
+{
+    background-color: #f6f9fe;
+}
+.aboutSpan
+{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    background: #e7f1fd;
+    color: #106eea;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+.findMoreAboutUs
+{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto" , "sans-serif";
+}
+.utPossimusSection3
+{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    line-height: 1.5;
+}
+.voluptatemSection3H3
+{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    color: #444444;   
+}
+.loremParagraphSection3
+{
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.storeIcon
+{
+    background: #fff;
+    box-shadow: 0px 6px 15px rgb(16 110 234 / 12%);
+    font-size: 24px;
+    padding: 20px;
+    color: #106eea;
+    border-radius: 50px;
+    line-height: 1;
+    text-align: center;
+}
+.ullamcoSection3
+{
+    font-size: 18px;
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.magniSection3
+{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.ullamcoParagraphSection3
+{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.section4
+{
+    background-color: #fff;
+}
+div .skillSpan
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    float: left;
+}
+div .percentageSpan
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    float: right;
+}
+.section5
+{
+    background-color: #fff;
+}
+.countBox
+{
+    background-color: #f6f9fe;
+}
+.numberSection5
+{
+    font-size: 36px;
+    font-weight: 600;
+    color: #062b5b;
+}
+.happyClients
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.iconInSection5
+{
+    font-size: 24px;
+    background: #106eea;
+    color: white;
+    border-radius: 50%;
+}
+.section6
+{
+    background-color: #f6f9fe;
+}
+.clientsDiv div div img
+{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.clientsDiv div div img:hover
+{
+    transform: scale(1.2);
+}
+.serviceDiv
+{
+    border: 1px solid #e2eefd;
+    padding: 80px 20px;
+    transition: 0.3s;
+}
+.serviceDiv:hover
+{
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    border: 2px solid white;
+}
+.iconInSection7
+{
+    background-color: #f1f6fe;
+    border-radius: 4px;
+    border: 1px solid #deebfd;
+    transition: 0.3s;
+    font-size: 28px;
+}
+.loremIpsumSection7
+{
+    color: #222222;
+    transition: 0.3s;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.paragraphInSection7
+{
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-weight: 400;
+}
+.serviceDiv:hover .iconInSection7
+{
+    border: 1px solid #106eea;
+}
+.serviceDiv:hover .loremIpsumSection7
+{
+    color: #106eea;
+}
+.section8
+{
+    background-image: url(../testimonials-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+.section8 img
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+}
+.testimonialName
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.testimonialRole
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #ddd;
+}
+.testimonialDescription
+{
+    font-size: 20px;
+    font-family: 'boxicons'!important;
+    line-height: 1;
+    font-weight: 200;
+    color: #eee;
+}
+.section8 .grayLayer
+{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0 , 0 , 0 , 0.6);
+}
+.buttonDiv
+{
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.portfolioNavList
+{
+    list-style-type: none;
+}
+.portfolioNavList li
+{
+    display: inline;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    color: #444444;
+    transition: 0.3s;
+}
+.portfolioPhotos div div
+{
+    overflow: hidden;
+}
+.portfolioPhotos div div .photoDivInSection9
+{
+    transition: 0.5s;
+    bottom: 0;
+    background-color: rgba(255 , 255 , 255 , 0.9);
+    width: 90%;
+    opacity: 0;
+}
+.portfolioPhotos div div:hover .photoDivInSection9
+{
+    opacity: 1;
+    bottom: 5%;
+}
+.photoDivInSection9 div div i
+{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.photoDivInSection9 div div i:hover
+{
+    cursor: pointer;
+    color: #106eea;
+}
+.sliderLayer
+{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.sliderLayer .slideGrayLayer
+{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0 , 0 , 0 , 0.6);
+    z-index: -1;
+}
+.sliderLayer .nextImage
+{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15;
+    font-size: 25px;
+    cursor: pointer;
+}
+.sliderLayer .previousImage
+{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15;
+    font-size: 25px;
+    cursor: pointer;
+}
+.section10
+{
+    background-color: #f6f9fe;
+}
+.memberInfo
+{
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.teamMebmerName
+{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+}
+.teamMebmerRole
+{
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+}
+.memberIcon i
+{
+    font-size: 18px;
+    color: #fff;
+    background: rgba(16, 110, 234, 0.8);
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.memberDiv img
+{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.memberDiv .position-relative .iconsForMember
+{
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.memberDiv:hover .position-relative .iconsForMember
+{
+    bottom: 5%;
+    opacity: 1;
+}
+.memberIcon i:hover
+{
+    background-color: #3485f0;
+}
+.pricePerProductPerMonth
+{
+    color: #bababa;
+    font-size: 20px;
+    font-weight: 300;
+}
+.pricePerProduct
+{
+    font-size: 36px;
+    color: #106eea;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.priceDiv
+{
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 12%);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    overflow: hidden;
+}
+.ulInPriceDiv
+{
+    list-style-type: none;
+}
+.deletedList
+{
+    color: #ccc;
+    text-decoration: line-through;
+}
+.productType
+{
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.productType h3
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: #777777;
+}
+.buyNowDiv
+{
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #777777;
+    background-color: #f8f8f8;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.buyNowButton
+{
+    background-color: #106eea;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.buyNowButton
+{
+    transition: 0.3s;
+}
+.buyNowButton:hover
+{
+    background-color: #3485f0;
+    color: white;
+}
+.advanced
+{
+    z-index: 1;
+    font-size: 14px;
+    background-color: #106eea;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.priceDiv .advanced
+{
+    top: 15px;
+    right: -28px;
+    transform: rotate(45deg);
+}
+.section12
+{
+    background-color: #f6f9fe;
+}
+.askedQuestion
+{
+    border-bottom: 1px solid #d4e5fc;
+}
+.questionParagraph
+{
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+}
+.questionParagraph i
+{
+    font-size: 16px;
+}
+.questionParagraph:hover
+{
+    color: #0d58ba !important;
+}
+.upIcon
+{
+    display: none;
+}
+.contactDiv
+{
+    box-shadow: 0 0 30px rgb(214 215 216 / 30%);
+}
+.contactDiv i
+{
+    font-size: 32px;
+    color: #106eea;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #b3d1fa;
+}
+.contactDiv h3
+{
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+.contactDiv p
+{
+    line-height: 24px;
+    font-size: 14px;
+    color: #444444;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.contactUs
+{
+    box-shadow: 0 0 30px rgb(214 215 216 / 30%);
+}
+.contactUs div div input::placeholder
+{
+    color: #212529;
+    font-weight: 400;
+}
+.contactUs div div input
+{
+    padding: 10px 15px;
+    line-height: 1.5;
+    color: #212529;
+    border: 1px solid #ced4da;
+}
+.contactUs div div textarea
+{
+    padding: 10px 15px;
+    line-height: 1.5;
+    color: #212529;
+    border: 1px solid #ced4da;
+    padding-bottom: 70px;
+}
+.contactUs div div textarea::placeholder
+{
+    color: #212529;
+    font-weight: 400;
+}
+.sendMessage
+{
+    background-color: #106eea;
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.sendMessage:hover
+{
+    background-color: #3485f0;
+}
+.warningParagraph
+{
+    color: red;
+    font-weight: 400;
+    font-size: 13px;
+    display: none;
+}
+.section14
+{
+    background-color: #f6f9fe;
+}
+.section14 div h4
+{
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: #444444;
+}
+.section14 div p
+{
+    font-size: 15px;
+    color: #444444;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.section14 div div button
+{
+    float: right;
+    background-color: #106eea;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.section14 div div
+{
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 7%);
+}
+.bizlandH3InSection15
+{
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #444444;
+}
+.dotSpanInSection15
+{
+    color: #106eea;
+}
+.paragraphInSection15
+{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    display: block;
+}
+.phone
+{
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+}
+.serviceType h4
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+.usefulLinksAndServices
+{
+    list-style-type: none;
+}
+.usefulLinksAndServices li span
+{
+    cursor: pointer;
+    color: #777777;
+    transition: 0.3s;
+    line-height: 1;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+.usefulLinksAndServices li i
+{
+    color: #106eea;
+    font-size: 12px;
+    line-height: 1;
+}
+.usefulLinksAndServices li span:hover
+{
+    color: #106eea;
+}
+.paragraphInServicesDiv
+{
+    color: #444444;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.memberIconInServices i
+{
+    font-size: 18px;
+    background-color: #106eea;
+    line-height: 1;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.memberIconInServices i:hover
+{
+    background-color: #3485f0;
+}
+footer
+{
+    background-color: #f1f6fe;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+footer .copyRight
+{
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.bootstrapMadeLink
+{
+    color: #106eea;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+.bootstrapMadeLink:hover
+{
+    text-decoration: none;
+    color: #3485f0;
+}
+.arrowUpIcon
+{
+    font-size: 14px;
+    background-color: #106eea;
+    line-height: 1;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1000;
+    display: none;
+    padding: 12px;
+}
+.arrowUpIcon:hover
+{
+    background-color: #3485f0;
+}
